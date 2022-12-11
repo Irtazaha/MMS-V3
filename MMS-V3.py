@@ -450,16 +450,16 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		MMS =input(" Choose : ")
-		if MM in ["1", "01"]:
+	         Main =input(" Choose : ")
+		if Main in ["1", "01"]:
 			File()
-		if MM in ["2", "02"]:
+		if Main in ["2", "02"]:
 			Public()
-		if MMS in ["3", "03"]:
+		if Main in ["3", "03"]:
 			os.system("python Dump.py")
-		if MMS in ["4", "04"]:
+		if Main in ["4", "04"]:
 			self.old()
-		if MMS in ["5", "05"]:
+		if Main in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
